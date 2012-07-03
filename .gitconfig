@@ -1,0 +1,39 @@
+[user]
+# you need to adjust the following two line
+	name = Your Username
+	email = your.email@domain.com
+# [core]
+#	autocrlf = input
+#	safecrlf = true
+
+[alias]
+  co = checkout
+  st = status
+  s = status -sb
+  ci = commit
+  rc = rebase --continue
+  pr = pull --rebase
+  gr = log --graph --all --decorate --pretty=oneline --abbrev-commit
+  g = log --graph --all --decorate --pretty=oneline --abbrev-commit -n 25
+  d = diff --word-diff
+  br = branch -av
+
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+
+[merge]
+  tool = meld
+
+[mergetool "meld"]
+  cmd = "meld $LOCAL $REMOTE $MERGED"
+
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1168x701+1307+53
+	file-view-vpane-position = 357
+	main-window-view = HistoryView
+	history-view-vpane-position = 403
+[push]
+	default = tracking
