@@ -1,0 +1,14 @@
+[
+	// modified key bindings for German keyboard layout
+	// all the keys not or hardly available otherwise ...
+
+	// just move or copy this file to the right location like
+	// e.g. ~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap
+	// for a Linux System with German keyboard layout
+
+	{ "keys": ["ctrl+alt+e"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment", "args": { "block": true } },
+
+	{ "keys": ["ctrl+alt+i"], "command": "indent" },
+	{ "keys": ["ctrl+alt+u"], "command": "unindent" }
+]
