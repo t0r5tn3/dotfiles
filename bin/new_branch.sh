@@ -16,12 +16,16 @@ fi
 
 git branch -av
 
+# update basebranch locally
 git checkout $BASEBRANCH
 git pull
 
-git checkout -b $1 origin/$BASEBRANCH
-git push origin $1
-git branch --set-upstream $1 origin/$1
+# create local branch from local basebranch
+git checkout -b $1
+
+# set upstream and push to remote
+git push -u origin $1
+
 git pull
 git fetch origin
 git branch -av
