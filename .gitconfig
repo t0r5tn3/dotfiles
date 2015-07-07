@@ -37,3 +37,5 @@
 	history-view-vpane-position = 403
 [push]
 	default = tracking
+[init]
+	templatedir = ~/.git_template
