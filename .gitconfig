@@ -27,7 +27,7 @@
   tool = meld
 
 [mergetool "meld"]
-  cmd = "meld $LOCAL $REMOTE $MERGED"
+  cmd = "meld $LOCAL $MERGED $REMOTE"
 
 [giggle]
 	main-window-maximized = false

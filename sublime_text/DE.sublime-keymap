@@ -10,5 +10,19 @@
 	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment", "args": { "block": true } },
 
 	{ "keys": ["ctrl+alt+i"], "command": "indent" },
-	{ "keys": ["ctrl+alt+u"], "command": "unindent" }
+	{ "keys": ["ctrl+alt+u"], "command": "unindent" },
+
+	// some other handy shortcuts
+	{ "keys": ["super+ctrl+alt+up"], "command": "goto_definition" },
+	{ "keys": ["super+ctrl+alt+down"], "command": "goto_symbol_in_project" },
+	{ "keys": ["super+ctrl+alt+left"], "command": "jump_back" },
+	{ "keys": ["super+ctrl+alt+right"], "command": "jump_forward" },
+
+	// Gem Browser.sublime-package
+	// https://github.com/NaN1488/sublime-gem-browser.git
+	{ "keys": ["ctrl+shift+g"], "command": "list_gems" },
+
+	// Git.sublime-package
+	// https://github.com/kemayo/sublime-text-git.git
+	{ "keys": ["ctrl+shift+b"], "command": "blame" }
 ]
